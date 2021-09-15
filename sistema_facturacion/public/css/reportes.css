@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+@page {
+    margin: 160px 50px;
+}
+header {
+    position: fixed;
+    left: 0px;
+    top: -160px;
+    right: 0px;
+    height: 60px;
+    background-color: #1f458d;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    margin: 10px 0;
+}
+header h2 {
+    margin: 0 0 10px 0;
+}
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: -50px;
+    right: 0px;
+    height: 40px;
+    border-bottom: 2px solid #1f458d;
+}
+footer .page:after {
+    content: counter(page);
+}
+footer table {
+    width: 100%;
+}
+footer p {
+    text-align: right;
+}
+footer .izq {
+    text-align: left;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 12px;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1bbb80;
+    color: white;
+}
